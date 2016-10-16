@@ -21,6 +21,7 @@
 		AF3190831DAFC96500C897CA /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3190811DAFC96500C897CA /* DummyViewController.swift */; };
 		AF3190841DAFC96500C897CA /* DummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3190821DAFC96500C897CA /* DummyViewController.xib */; };
 		AF3190871DAFCD0500C897CA /* Mutant2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3190861DAFCD0500C897CA /* Mutant2ViewController.swift */; };
+		AFFF3FEF1DB42D98004AD9D9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFFF3FEE1DB42D98004AD9D9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AF3190811DAFC96500C897CA /* DummyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		AF3190821DAFC96500C897CA /* DummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DummyViewController.xib; sourceTree = "<group>"; };
 		AF3190861DAFCD0500C897CA /* Mutant2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mutant2ViewController.swift; path = ../XibInStoryboardExample/Mutant2ViewController.swift; sourceTree = "<group>"; };
+		AFFF3FEE1DB42D98004AD9D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		AF3190551DAEB55A00C897CA = {
 			isa = PBXGroup;
 			children = (
+				AFFF3FEE1DB42D98004AD9D9 /* README.md */,
 				AF3190601DAEB55A00C897CA /* XibInStoryboardExample */,
 				AF31905F1DAEB55A00C897CA /* Products */,
 			);
@@ -182,6 +185,7 @@
 				AF3190621DAEB55A00C897CA /* AppDelegate.swift in Sources */,
 				AF3190741DAEB61300C897CA /* MutatingViewController.swift in Sources */,
 				AF3190871DAFCD0500C897CA /* Mutant2ViewController.swift in Sources */,
+				AFFF3FEF1DB42D98004AD9D9 /* README.md in Sources */,
 				AF31907E1DAFC4A600C897CA /* Mutant1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
