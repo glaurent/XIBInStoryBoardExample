@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseViewController" customModule="XibInStoryboardTest" customModuleProvider="target">
+            <connections>
+                <outlet property="placeholderView" destination="SGA-Lt-SZi" id="TGy-Oq-fXs"/>
+                <outlet property="view" destination="dgq-Xl-6uj" id="XBy-Qo-IdV"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="dgq-Xl-6uj">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGA-Lt-SZi">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="238" id="Xlt-fF-mWm"/>
+                        <constraint firstAttribute="width" constant="255" id="nyz-fE-pm1"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Common Part" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycg-jp-8Ip">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SGA-Lt-SZi" firstAttribute="top" secondItem="dgq-Xl-6uj" secondAttribute="top" constant="28" id="5WB-Df-RKN"/>
+                <constraint firstItem="SGA-Lt-SZi" firstAttribute="leading" secondItem="dgq-Xl-6uj" secondAttribute="leadingMargin" id="Ojg-lf-Qjf"/>
+                <constraint firstItem="ycg-jp-8Ip" firstAttribute="top" secondItem="SGA-Lt-SZi" secondAttribute="bottom" constant="57" id="dhD-Za-faQ"/>
+                <constraint firstItem="ycg-jp-8Ip" firstAttribute="leading" secondItem="dgq-Xl-6uj" secondAttribute="leading" constant="16" id="rCv-re-INf"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="54.5"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+</document>
