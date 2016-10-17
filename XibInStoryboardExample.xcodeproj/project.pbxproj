@@ -18,28 +18,23 @@
 		AF31907C1DAFC3DC00C897CA /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF31907B1DAFC3DC00C897CA /* BaseViewController.xib */; };
 		AF31907E1DAFC4A600C897CA /* Mutant1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31907D1DAFC4A600C897CA /* Mutant1ViewController.swift */; };
 		AF3190801DAFC60900C897CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31907F1DAFC60900C897CA /* BaseViewController.swift */; };
-		AF3190831DAFC96500C897CA /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3190811DAFC96500C897CA /* DummyViewController.swift */; };
-		AF3190841DAFC96500C897CA /* DummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3190821DAFC96500C897CA /* DummyViewController.xib */; };
 		AF3190871DAFCD0500C897CA /* Mutant2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3190861DAFCD0500C897CA /* Mutant2ViewController.swift */; };
-		AFFF3FEF1DB42D98004AD9D9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFFF3FEE1DB42D98004AD9D9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF31905E1DAEB55A00C897CA /* XibInStoryboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibInStoryboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF3190611DAEB55A00C897CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../XibInStoryboardExample/AppDelegate.swift; sourceTree = "<group>"; };
-		AF3190631DAEB55A00C897CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../XibInStoryboardExample/ViewController.swift; sourceTree = "<group>"; };
+		AF3190611DAEB55A00C897CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3190631DAEB55A00C897CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF3190661DAEB55A00C897CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF3190681DAEB55A00C897CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../XibInStoryboardExample/Assets.xcassets; sourceTree = "<group>"; };
 		AF31906B1DAEB55A00C897CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF31906D1DAEB55A00C897CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../XibInStoryboardExample/Info.plist; sourceTree = "<group>"; };
+		AF31906D1DAEB55A00C897CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF3190731DAEB61300C897CA /* MutatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutatingViewController.swift; path = ../XibInStoryboardExample/MutatingViewController.swift; sourceTree = "<group>"; };
-		AF3190751DAEB6A700C897CA /* CustomView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomView1.xib; path = ../XibInStoryboardExample/CustomView1.xib; sourceTree = "<group>"; };
-		AF3190771DAEB70400C897CA /* CustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomView2.xib; path = ../XibInStoryboardExample/CustomView2.xib; sourceTree = "<group>"; };
+		AF3190751DAEB6A700C897CA /* CustomView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView1.xib; sourceTree = "<group>"; };
+		AF3190771DAEB70400C897CA /* CustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView2.xib; sourceTree = "<group>"; };
 		AF31907B1DAFC3DC00C897CA /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaseViewController.xib; path = ../XibInStoryboardExample/BaseViewController.xib; sourceTree = "<group>"; };
 		AF31907D1DAFC4A600C897CA /* Mutant1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mutant1ViewController.swift; path = ../XibInStoryboardExample/Mutant1ViewController.swift; sourceTree = "<group>"; };
 		AF31907F1DAFC60900C897CA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../XibInStoryboardExample/BaseViewController.swift; sourceTree = "<group>"; };
-		AF3190811DAFC96500C897CA /* DummyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
-		AF3190821DAFC96500C897CA /* DummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DummyViewController.xib; sourceTree = "<group>"; };
 		AF3190861DAFCD0500C897CA /* Mutant2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mutant2ViewController.swift; path = ../XibInStoryboardExample/Mutant2ViewController.swift; sourceTree = "<group>"; };
 		AFFF3FEE1DB42D98004AD9D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,22 +80,11 @@
 				AF31907F1DAFC60900C897CA /* BaseViewController.swift */,
 				AF3190861DAFCD0500C897CA /* Mutant2ViewController.swift */,
 				AF31907B1DAFC3DC00C897CA /* BaseViewController.xib */,
-				AF3190851DAFCC7C00C897CA /* Dummy ViewController - reference */,
 				AF3190681DAEB55A00C897CA /* Assets.xcassets */,
 				AF31906A1DAEB55A00C897CA /* LaunchScreen.storyboard */,
 				AF31906D1DAEB55A00C897CA /* Info.plist */,
 			);
-			name = XibInStoryboardExample;
-			path = XibInStoryboardTest;
-			sourceTree = "<group>";
-		};
-		AF3190851DAFCC7C00C897CA /* Dummy ViewController - reference */ = {
-			isa = PBXGroup;
-			children = (
-				AF3190811DAFC96500C897CA /* DummyViewController.swift */,
-				AF3190821DAFC96500C897CA /* DummyViewController.xib */,
-			);
-			name = "Dummy ViewController - reference";
+			path = XibInStoryboardExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF31906C1DAEB55A00C897CA /* LaunchScreen.storyboard in Resources */,
-				AF3190841DAFC96500C897CA /* DummyViewController.xib in Resources */,
 				AF3190781DAEB70400C897CA /* CustomView2.xib in Resources */,
 				AF3190691DAEB55A00C897CA /* Assets.xcassets in Resources */,
 				AF31907C1DAFC3DC00C897CA /* BaseViewController.xib in Resources */,
@@ -180,12 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3190801DAFC60900C897CA /* BaseViewController.swift in Sources */,
-				AF3190831DAFC96500C897CA /* DummyViewController.swift in Sources */,
 				AF3190641DAEB55A00C897CA /* ViewController.swift in Sources */,
 				AF3190621DAEB55A00C897CA /* AppDelegate.swift in Sources */,
 				AF3190741DAEB61300C897CA /* MutatingViewController.swift in Sources */,
 				AF3190871DAFCD0500C897CA /* Mutant2ViewController.swift in Sources */,
-				AFFF3FEF1DB42D98004AD9D9 /* README.md in Sources */,
 				AF31907E1DAFC4A600C897CA /* Mutant1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XibInStoryboardTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/XibInStoryboardExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.telegraph-road.XibInStoryboardTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,7 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XibInStoryboardTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/XibInStoryboardExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.telegraph-road.XibInStoryboardTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
